@@ -14,7 +14,7 @@
     <?php include "partials/navbar.php" ?>
     <!-- Page Layout here -->
     <div class="row">
-        <div class="col s9">
+        <div class="col s12 m9">
             <!-- Teal page content  -->
             <main>
                 <article id="secao1">
@@ -22,9 +22,9 @@
                         <h2>Como as Nações Unidas apoiam os Objetivos de
                             Desenvolvimento Sustentável?</h2>
                     </header>
-                    <section>
+                    <section class="center-align">
                         <figure>
-                            <img class="img" width="100%" src="img/energia_limpa_index.gif" alt="energia limpa">
+                            <img class="img" width="70%" src="img/energia_limpa_index.gif" alt="energia limpa">
                         </figure>
                     </section>
                 </article>
@@ -32,9 +32,9 @@
                     <header>
                         <h3>Objetivos da ONU</h3>
                     </header>
-                    <section>
+                    <section class="center-align">
                         <figure>
-                            <img src="img/ods_onu.png" width="100%" alt="ODS da ONU">
+                            <img src="img/ods_onu.png" width="70%" alt="ODS da ONU">
                         </figure>
                         <p>Os objetivos de Desenvolvimento Sustentável são um apelo global à ação para acabar com a pobreza e proteger o meio ambiente e o clima e garantir que as pessoas, em todos os lugares, possam desfrutar de paz e de prosperidade. Estes são os objetivos para os quais as Nações Unidas estão contribuindo a fim de que possamos atingir a Agenda de 2030 no Brasil.</p>
                     </section>
@@ -101,35 +101,35 @@
                     </header>
                     <section>
                         <div class="row">
-                            <div class="col s6">
+                            <div class="col s12 m6">
                                 <video class="responsive-video" controls>
                                     <source src="./video/como-funciona.mp4" type="video/mp4">
                                 </video>
                             </div>
-                            <div class="col s6">
+                            <div class="col s12 m6">
                                 <h5>Energia solar - como funciona</h5>
                                 <p>Num curto espaço de tempo, a energia solar e os painéis solares deixaram de ser um conceito futurista, transformando-se numa realidade e integrando a solução para um futuro mais sustentável.</p>
                             </div>
                             <div class="divisor"></div>
                         </div>
                         <div class="row">
-                            <div class="col s6">
+                            <div class="col s12 m6">
                                 <video class="responsive-video" controls>
                                     <source src="./video/energia-convertida.mp4" type="video/mp4">
                                 </video>
                             </div>
-                            <div class="col s6">
+                            <div class="col s12 m6">
                                 <h5>Como energia solar é convertida em eletrecidade?</h5>
                                 <p>Para entender como transformar energia solar em energia elétrica, é preciso entender bem o que é o efeito fotovoltaico.</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col s6">
+                            <div class="col s12 m6">
                                 <video class="responsive-video" controls>
                                     <source src="./video/energias-limpas.mp4" type="video/mp4">
                                 </video>
                             </div>
-                            <div class="col s6">
+                            <div class="col s12 m6">
                                 <h5>Energia limpas e o futuro que queremos</h5>
                                 <p>A energia limpa contribui para a utilização de fontes renováveis. Além dos recursos utilizados estarem disponíveis para gerações futuras, a energia limpa não causa impactos como o aumento do dióxido de carbono (CO2) na atmosfera, não emite gases de efeito estufa e tampouco agrava o aquecimento global.</p>
                             </div>
@@ -174,19 +174,17 @@
                 </article>
             </main>
         </div>
-        <div class="col s3 yellow">
+        <div class="col s0 m3 yellow lighten-2">
             <!-- Grey navigation panel -->
             <article>
                 <header>
                     <h5>Conteúdo da Página</h5>
                 </header>
-                <nav>
                     <ul>
                         <li><a class="black-text" href="#secao2">Objetivos da ONU</a></li>
                         <li><a class="black-text" href="#secao3">Quanto a Energia Sustentável?</a></li>
                         <li><a class="black-text" href="#secao5">Mais informações:</a></li>
                     </ul>
-                </nav>
             </article>
         </div>
     </div>
